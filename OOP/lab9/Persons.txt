@@ -1,0 +1,5 @@
+Popa Dan 6000
+Popovici Iulian 2500
+Antonescu Ion 3000
+Popescu Eugen 20000
+Ionescu Dana 25000

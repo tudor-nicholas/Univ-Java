@@ -1,0 +1,6 @@
+hourly Andrei 74685375 40 15
+hourly Stefan 86925375 24 18
+salaried Matei 84769357 2600
+commission Gabriel 95736584 8400 15
+commission Cristina 95737583 16800 12
+commission Maria 86847598 45000 22

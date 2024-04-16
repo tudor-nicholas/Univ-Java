@@ -1,0 +1,4 @@
+square 5
+trapezoid 4 3 5
+hexagon 6
+square 10
