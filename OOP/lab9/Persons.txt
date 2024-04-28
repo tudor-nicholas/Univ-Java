@@ -3,3 +3,6 @@ Popovici Iulian 2500
 Antonescu Ion 3000
 Popescu Eugen 20000
 Ionescu Dana 25000
+Popescu Eugen 20000
+Ionescu Dana 25000
+Andrei Gabriel 23400

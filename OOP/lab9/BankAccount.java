@@ -21,12 +21,16 @@ public class BankAccount {
     }
     @Override
     public String toString(){
-        return String.format("Account 1: Name: %s Ballance: %.2f",
+        return String.format("Account 1: Name: %s Balance: %.2f",
                 owner, amount );
     }
     public void withdraw(double n) {
-        amount -= n;
-        System.out.println("You have withdraw " + n);
+        if (n<=amount){
+            amount -= n;
+            System.out.println("You have withdraw " + n);
+        } else {
+            System.out.println("Withdraw amount exceeds the account balance.");
+        }
     }
 
 }

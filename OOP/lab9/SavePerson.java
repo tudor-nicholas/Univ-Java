@@ -48,10 +48,8 @@ public class SavePerson {
     public static void loadFromKeyboard(int numberOfPeople) {
         Scanner scan = new Scanner(System.in);
         for (int i = 0; i < numberOfPeople; i++) {
-            System.out.println("Enter last name:");
-            String lastName = scan.nextLine();
-            System.out.println("Enter first name:");
-            String firstName = scan.nextLine();
+            System.out.println("Enter name:");
+            String name = scan.nextLine();
             int income;
             while (true) {
                 try {
@@ -63,7 +61,6 @@ public class SavePerson {
                     scan.nextLine(); // Consume the invalid input
                 }
             }
-            String name = lastName + " " + firstName;
             collection[n++] = new Person(name, income);
             scan.nextLine(); // Consume the newline character
         }
