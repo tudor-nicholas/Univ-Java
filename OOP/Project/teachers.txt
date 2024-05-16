@@ -1,2 +1,3 @@
-high Marian 17 0-10 34
-college Cristian 23 Dr. 4
+high Marian 18 0-5 38
+college Cristian 26 Dr. 7
+college Andrei 11 Dr. 4
