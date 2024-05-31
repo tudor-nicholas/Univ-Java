@@ -5,11 +5,9 @@ import java.awt.event.*;
 
 class MyWindow extends Frame implements ActionListener {
     private MenuBar mb = new MenuBar();
-
     private Menu o1 = new Menu("Option 1");
     private Menu o2 = new Menu("Option 2");
     private Menu o3 = new Menu("Option 3");
-
     private MenuItem o11 = new MenuItem("Option 1.1");
     private MenuItem o12 = new MenuItem("Option 1.2");
     private Menu o13 = new Menu("Option 1.3");
@@ -21,7 +19,6 @@ class MyWindow extends Frame implements ActionListener {
     private MenuItem o131 = new MenuItem("Option 1.3.1");
     private MenuItem o132 = new MenuItem("Option 1.3.2");
     private MenuItem o133 = new MenuItem("Option 1.3.3");
-
     private TextField txtMessage = new TextField(20);
 
     public MyWindow(String title) {
