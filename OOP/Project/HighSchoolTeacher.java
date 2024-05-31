@@ -11,6 +11,9 @@ public class HighSchoolTeacher extends Teacher {
     public String getType() {
         return type;
     }
+    public void setName(String name) {
+        super.setName(name);
+    }
     public void setExperience(int experience) {
         super.setExperience(experience);
     }
@@ -31,6 +34,6 @@ public class HighSchoolTeacher extends Teacher {
         return String.format("High School %s Grade: %s Number of hours: %d", super.toString(), grade, nrOfHours);
     }
     public String toFileString(){
-        return String.format("high %s %d %s %d", super.getName(), super.getExperience(), grade, nrOfHours);
+        return String.format("high  %s  %d  %s  %d", super.getName(), super.getExperience(), grade, nrOfHours);
     }
 }

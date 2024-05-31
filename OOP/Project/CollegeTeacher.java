@@ -17,7 +17,9 @@ public class CollegeTeacher extends Teacher {
     public int getYearsOfEmployment() {
         return yearsOfEmployment;
     }
-
+    public void setName(String name) {
+        super.setName(name);
+    }
     public void setTitle(String title) {
         this.title = title;
     }
@@ -29,9 +31,9 @@ public class CollegeTeacher extends Teacher {
     }
     @Override
     public String toString(){
-        return String.format("College %s Title: %s Years of Experience: %d", super.toString(), title, yearsOfEmployment);
+        return String.format("College %s Title: %s Years as College Teacher: %d", super.toString(), title, yearsOfEmployment);
     }
     public String toFileString(){
-        return String.format("college %s %d %s %d", super.getName(), super.getExperience(), title, yearsOfEmployment);
+        return String.format("college  %s  %d  %s  %d", super.getName(), super.getExperience(), title, yearsOfEmployment);
     }
 }

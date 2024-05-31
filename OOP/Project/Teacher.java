@@ -13,11 +13,12 @@ public abstract class Teacher {
     public int getExperience() {
         return experience;
     }
-
+    public void setName(String name) {
+        this.name = name;
+    }
     public void setExperience(int experience) {
         this.experience = experience;
     }
-
     public String toString(){
         return String.format("Teacher Name: %s Years of experience: %d", name, experience);
     }
