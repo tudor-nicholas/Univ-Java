@@ -1,0 +1,4 @@
+high  Ionescu Marian  18  0-5  38
+college  Popa Cristian  30  Dr.  9
+college  Cantemir Alex  11  Dr.  4
+college  Popescu Adrian  20  Dr.  5
