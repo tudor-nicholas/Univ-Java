@@ -1,8 +1,6 @@
 package OOP.ProjectTest1;
 
 import java.awt.*;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -18,7 +16,6 @@ public class TeacherManagementApp extends Frame {
     private Button btnExit, modbtn, loadBtn;
     private Panel mainPanel, modPanel;
     private ArrayList<Teacher> teachersList;
-    private Teacher selectedTeacherUniversal;
     public TeacherManagementApp(String title) {
         super(title);
         setLayout(new FlowLayout());
